@@ -1,0 +1,280 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #16213e;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #a2d2ff;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.cta-button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-btn {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.demo-btn {
+    background-color: #fff;
+    color: #1a1a2e;
+}
+
+.try-free-btn {
+    background-color: #c3073f;
+    color: #fff;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 2rem 2rem;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #07c31a;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 18px;
+    color: #a2d2ff;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.project-image, .people-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.action-btn {
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.get-started-btn {
+    background-color: #a2d2ff;
+    color: #1a1a2e;
+}
+
+.book-demo-btn {
+    background-color: #fff;
+    color: #1a1a2e;
+}
+
+.trial-text {
+    font-size: 14px;
+    color: #a2d2ff;
+    margin-bottom: 2rem;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #a2d2ff;
+    margin-top: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.stat {
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #c3073f;
+    margin-bottom: 0.5rem;
+}
+
+.stat-text {
+    font-size: 16px;
+    color: #a2d2ff;
+}
+
+.logos-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    max-width: 150px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: #16213e;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.footer-links .column {
+    flex: 1;
+    min-width: 150px;
+    margin: 1rem;
+}
+
+.footer-links a {
+    color: #a2d2ff;
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    color: #a2d2ff;
+}
+
+input[type="checkbox"] {
+margin-right: 5px;
+vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+background-color: #fff; /* Optional: Change color when checked */
+border-color: #fff;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-toggle {
+    display: none; /* Hide checkbox */
+}
+
+.additional-options {
+    display: none; /* Initially hidden */
+    background-color: #333;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.option {
+    margin: 5px 0;
+}
