@@ -1,0 +1,406 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0a192f;
+    color: white;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #0a192f;
+    position: relative;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #64ffda;
+}
+
+.login-link {
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.login-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.book-demo-btn {
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.book-demo-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.get-report-btn {
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    background-color: #ff3366;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.get-report-btn:hover {
+    background-color: #e62e5c;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 5%;
+    min-height: 80vh;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.highlight-text {
+    color: #64ffda;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    color: #8892b0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.certifications {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    color: #8892b0;
+}
+
+.cert-item i {
+    margin-right: 8px;
+    color: #64ffda;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.primary-btn {
+    padding: 12px 24px;
+    background-color: #64ffda;
+    color: #0a192f;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #4fd8c7;
+    transform: translateY(-2px);
+}
+
+.secondary-btn {
+    padding: 12px 24px;
+    background-color: transparent;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    transform: translateY(-2px);
+}
+
+.small-text {
+    font-size: 0.9rem;
+    color: #8892b0;
+}
+
+.hero-description {
+    margin-top: 40px;
+    text-align: center;
+    color: #8892b0;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Steps Section Styles */
+.steps-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #64ffda;
+    color: #0a192f;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+.step h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Quote Section Styles */
+.quote-section {
+    margin-bottom: 40px;
+}
+
+.quote {
+    color: #64ffda;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Visual Section Styles */
+.visual-section {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px dashed #64ffda;
+    border-radius: 8px;
+}
+
+.visual-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.visual-description {
+    color: #8892b0;
+}
+
+/* Details Section */
+.details-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.details-section h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.details-section ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.details-section li {
+    color: #8892b0;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+/* Ready Section Styles */
+.ready-section {
+    margin: 50px 0;
+}
+
+.ready-section h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.action-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #8892b0;
+    border-radius: 4px;
+    color: #8892b0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-btn.active {
+    background-color: #64ffda;
+    color: #0a192f;
+    border-color: #64ffda;
+}
+
+.action-btn:hover:not(.active) {
+    border-color: #64ffda;
+    color: #64ffda;
+}
+
+/* Footer Nav Styles */
+.footer-nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.footer-column h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Slider Dots */
+.slider-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #8892b0;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #64ffda;
+    transform: scale(1.2);
+}
+
+/* Hidden Section (for slider) */
+.hidden {
+    display: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 2%;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    nav ul li {
+        margin: 5px 10px;
+    }
+    
+    .steps-section {
+        flex-direction: column;
+    }
+    
+    .footer-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .hero-content {
+        padding: 0 10px;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .highlight-text, .quote {
+        font-size: 1.8rem;
+    }
+    
+    .footer-nav {
+        grid-template-columns: 1fr;
+    }
+}
